@@ -20,7 +20,6 @@ import urllib.request
 from random import shuffle
 
 print("\t\t----------Omegle Chat Hack----------\n")
-f=str(0)
 j=1
 
 url="http://l.omegle.com/"
@@ -53,4 +52,3 @@ for L in range(5, 10):
             output.close()
         except  urllib.error.URLError as e:
             print("Unsuccessful")
-            continue
