@@ -24,7 +24,7 @@ f=str(0)
 j=1
 
 url="http://l.omegle.com/"
-numberofImagesWanted=int(input("enter desired number of chats ('0' for no limit): " ))
+numberofImagesWanted=int(input("enter desired number of chats ('-1' for no limit): " ))
 
 stuff = [ "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "a", "b", "c", "d", "e", "f" ]
 
@@ -53,3 +53,4 @@ for L in range(5, 10):
             output.close()
         except  urllib.error.URLError as e:
             print("Unsuccessful")
+            continue
